@@ -50,4 +50,3 @@ x,y,z = 5, 10, 15
 print(f"x")
 print(f"y")
 print(f"z")
-
