@@ -7,11 +7,10 @@
 
 adejective = input("Enter an adjective: ")
 noun = input("Enter a noun: ")
-adejective2 = input("Enter another adjective: ")
 verb = input("Enter a verb: ")
-adjective3 = input("Enter one more adjective: ")
+adjective2 = input("Enter one adjective to describe the experience: ")
 
-print(f"Today, I went to a {adejective} zoo.")
-print(f"At the zoo, I saw {noun}.")
-print(f"{noun} was {adejective2} and {verb}ing.")
-print(f"It was a {adjective3} experience!")
+print(f"Today, I went to a {adejective} park.")
+print(f"At the park, I saw three {noun}.")
+print(f"{noun} is {verb}ing.")
+print(f"It was a {adjective2} experience!")
