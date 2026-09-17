@@ -27,4 +27,4 @@ if Soccerfan:
     team = str(input("What team do you support?"))
     print (f"I like {team} as well")
 else:
-    print("Get out")
+    print("What Sport do your Like")
