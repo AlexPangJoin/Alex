@@ -21,7 +21,6 @@ if name == "":
 else:
     print(f"Hello {name}")
 
-
 Soccerfan = True
 
 if Soccerfan:
