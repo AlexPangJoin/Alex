@@ -21,3 +21,5 @@ def calculate_tax(price):
     tax_rate = 0.25
 calculate_tax(100)
 calculate_tax(200)
+calculate_tax(200)
+calculate_tax(100)
