@@ -1,8 +1,10 @@
-divisible = 0
+divisor = input("What is the variable?")
 
 try:
-    result = 10/divisible
+    result = 10/float(divisor)
 except:
-    print("Error: Division by zero")
+    print("Invalid Input")
 finally:
-    print("This will print anyway")
+    print("Finished Running")
+
+numbers = [1,2,3,4,5]
