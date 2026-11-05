@@ -9,4 +9,7 @@ def linear_search(my_list,target):
 
 value = 13
 result = linear_search(number,value)
-print(f"{value} found at index{result}")
+if result == -1:
+    print("Value isnot in the list")
+else:
+    print(f"Value {value} is found at index {result}")
