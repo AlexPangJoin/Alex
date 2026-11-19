@@ -1,4 +1,4 @@
-file = open("2.5/data.txt", "r")
+file = open("data.txt", "r")
 print("File opened successfully for reading!")
 
 content = file.read()
