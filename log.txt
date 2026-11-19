@@ -1,2 +1,4 @@
+Application started.
+User 'admin' logged in.
 Action: Data saved.
 Application shut down.

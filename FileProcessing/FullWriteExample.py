@@ -12,7 +12,7 @@ finally:
 
 log_file = None
 try:
-    log_file = open("log.txt", "w")
+    log_file = open("log.txt", "a")
     log_file.write("Action: Data saved.\n")
     log_file.write("Application shut down.\n")
     print("Log entries successfully written to log.txt")
