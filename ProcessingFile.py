@@ -8,3 +8,13 @@ file = open("data.txt", "r")
 for line in file:
     print("Line from file:", line.strip())
 file.close()
+
+try:
+    file = open("data.txt", "r")
+    print("File is opened and being processed.")
+except FileNotFoundError:
+    print("Error: The file was not found.")
+finally:
+    if 'file' in locals() and not file.closed:
+        file.close()
+        print("File has been closed")
